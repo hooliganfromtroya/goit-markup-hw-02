@@ -1,0 +1,201 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*=======header======*/
+body {
+    background-color: var(--c-background);
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo_1 {
+    color: var(--c-blue);
+    font-size: 26px;
+    font-weight: 400;
+    font-family: var(--font-raleway);
+    line-height: 1.17;
+}
+
+.logo_2 {
+    color: var(--c-black);
+    font-size: 26px;
+    font-weight: 700;
+    font-family: var(--font-raleway);
+    line-height: 1.38;
+}
+
+.links_nav {
+    color: var(--c-dark);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+}
+
+.links_nav:hover,
+.links_nav:focus {
+    color: var(--c-light-blue);
+}
+
+.links_contact {
+    color: var(--c-boulder);
+}
+
+.links_contact:hover,
+.links_contact:focus {
+    color: var(--c-light-blue);
+}
+/*======= AND header======*/
+/*========components========*/
+a {
+    text-decoration: none;
+}
+
+:root {
+    /*Colors*/
+    --c-background: #e5e5e5;
+    --c-white: #ffffff;
+    --c-blue: #2196e3;
+    --c-light-blue: #2196f3;
+    --c-black: #000000;
+    --c-dark: #212121;
+    --c-boulder: #757575;
+    /* Fonts */
+    --font-roboto: 'Roboto', sans-serif;
+    --font-raleway: 'Raleway', sans-serif;
+}
+/*========ANDcomponents========*/
+/*==========Button==========*/
+.description {
+    color: var(--c-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+}
+
+.description_btn {
+    width: 200px;
+    height: 50px;
+    background-color: var(--c-light-blue);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.btn_order {
+    color: var(--c-white);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.description_btn:hover {
+    background-color: #188ce8;
+}
+/*==========ANDButton==========*/
+/*==========About us==========*/
+
+.about_title {
+    color: var(--c-dark);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.about_text {
+    color: var(--c-boulder);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+    font-weight: 400;
+}
+/*==========AND About us==========*/
+/*==========WORK==========*/
+
+.working_list_title {
+    color: var(--c-dark);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+/*==========ANDWORK==========*/
+/*==========Team==========*/
+
+.our_team_title {
+    color: var(--c-dark);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.name_employee {
+    color: var(--c-dark);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.position_employee {
+    color: var(--c-boulder);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+/*==========AND TEAM==========*/
+/*=======FOOTER=======*/
+
+.logo_2_footer {
+    color: var(--c-white);
+    font-size: 26px;
+    font-weight: 700;
+    font-family: var(--font-raleway);
+    line-height: 1.38;
+}
+
+.address {
+    color: var(--c-white);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+/*=======ANDFOOTER=======*/
+/*======Portofolio======*/
+
+.button_style {
+    color: var(--c-dark);
+    background-color: #f5f4fa;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.button_style:hover,
+.button_style:focus {
+    color: var(--c-white);
+    background-color: var(--c-light-blue);
+}
+
+.poroject_list_title {
+    color: var(--c-dark);
+    background-color: #f5f4fa;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.poroject_list_text {
+    color: var(--c-boulder);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
+/*======Portofolio======*/
+
+
