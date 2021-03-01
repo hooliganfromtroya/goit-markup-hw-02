@@ -45,7 +45,7 @@ body {
 .links_contact:focus {
     color: var(--c-light-blue);
 }
-/*======= AND header======*/
+/*======= end header======*/
 /*========components========*/
 a {
     text-decoration: none;
@@ -64,7 +64,7 @@ a {
     --font-roboto: 'Roboto', sans-serif;
     --font-raleway: 'Raleway', sans-serif;
 }
-/*========ANDcomponents========*/
+/*========end components========*/
 /*==========Button==========*/
 .description {
     color: var(--c-white);
@@ -91,7 +91,7 @@ a {
 .description_btn:hover {
     background-color: #188ce8;
 }
-/*==========ANDButton==========*/
+/*==========end Button==========*/
 /*==========About us==========*/
 
 .about_title {
@@ -109,7 +109,7 @@ a {
     line-height: 1.71;
     font-weight: 400;
 }
-/*==========AND About us==========*/
+/*==========end About us==========*/
 /*==========WORK==========*/
 
 .working_list_title {
@@ -119,7 +119,7 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
-/*==========ANDWORK==========*/
+/*==========end WORK==========*/
 /*==========Team==========*/
 
 .our_team_title {
@@ -145,7 +145,7 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
-/*==========AND TEAM==========*/
+/*==========end TEAM==========*/
 /*=======FOOTER=======*/
 
 .logo_2_footer {
@@ -163,7 +163,7 @@ a {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-/*=======ANDFOOTER=======*/
+/*=======end FOOTER=======*/
 /*======Portofolio======*/
 
 .button_style {
